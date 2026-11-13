@@ -54,8 +54,8 @@ fun Ejercicio3() {
         Row(Modifier.fillMaxWidth().padding(top = 20.dp)) {
             // A: offset -> size -> background. El fondo viaja junto con el cuadro.
             Column(Modifier.width(160.dp)) {
-                Text("A: offset, size, background", fontSize = 12.sp, fontWeight = FontWeight.Medium)
-                Box(Modifier.height(300.dp).fillMaxWidth()) {
+                Text("A: offset, size,\nbackground", fontSize = 12.sp, fontWeight = FontWeight.Medium)
+                Box(Modifier.padding(top = 6.dp).height(300.dp).fillMaxWidth()) {
                     Box(
                         Modifier
                             .offset(x = desplazX, y = desplazY)
@@ -67,8 +67,8 @@ fun Ejercicio3() {
             }
             // B: size -> background -> offset. El fondo se queda y solo se mueve lo que esta dentro.
             Column(Modifier.width(160.dp)) {
-                Text("B: size, background, offset", fontSize = 12.sp, fontWeight = FontWeight.Medium)
-                Box(Modifier.height(300.dp).fillMaxWidth()) {
+                Text("B: size, background,\noffset", fontSize = 12.sp, fontWeight = FontWeight.Medium)
+                Box(Modifier.padding(top = 6.dp).height(300.dp).fillMaxWidth()) {
                     Box(
                         Modifier
                             .size(lado)
