@@ -29,6 +29,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.tecsup.lab13.juego.JuegoGatos
 
 /** Una pantalla del laboratorio: lo que se ve en el menu y el composable que se abre. */
 class Pantalla(val titulo: String, val detalle: String, val contenido: @Composable () -> Unit)
@@ -38,6 +39,7 @@ private val pantallas = listOf(
     Pantalla("Ejercicio 2", "animateColorAsState: cambio de color con tween y spring") { Ejercicio2() },
     Pantalla("Ejercicio 3", "animateDpAsState y offset: mover y cambiar de tamaño") { Ejercicio3() },
     Pantalla("Ejercicio 4", "AnimatedContent: Cargando, Contenido y Error") { Ejercicio4() },
+    Pantalla("Ejercicio final", "Torre de gatitos: animaciones combinadas") { JuegoGatos() },
 )
 
 @Composable
