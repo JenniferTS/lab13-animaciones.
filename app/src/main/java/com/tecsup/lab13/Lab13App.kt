@@ -33,7 +33,9 @@ import androidx.compose.ui.unit.sp
 /** Una pantalla del laboratorio: lo que se ve en el menu y el composable que se abre. */
 class Pantalla(val titulo: String, val detalle: String, val contenido: @Composable () -> Unit)
 
-private val pantallas = listOf<Pantalla>()
+private val pantallas = listOf(
+    Pantalla("Ejercicio 1", "AnimatedVisibility: mostrar y ocultar un cuadro") { Ejercicio1() },
+)
 
 @Composable
 fun Lab13App() {
