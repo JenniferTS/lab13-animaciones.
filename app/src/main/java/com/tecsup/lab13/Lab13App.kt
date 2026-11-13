@@ -35,6 +35,7 @@ class Pantalla(val titulo: String, val detalle: String, val contenido: @Composab
 
 private val pantallas = listOf(
     Pantalla("Ejercicio 1", "AnimatedVisibility: mostrar y ocultar un cuadro") { Ejercicio1() },
+    Pantalla("Ejercicio 2", "animateColorAsState: cambio de color con tween y spring") { Ejercicio2() },
 )
 
 @Composable
