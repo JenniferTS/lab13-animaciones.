@@ -37,6 +37,7 @@ private val pantallas = listOf(
     Pantalla("Ejercicio 1", "AnimatedVisibility: mostrar y ocultar un cuadro") { Ejercicio1() },
     Pantalla("Ejercicio 2", "animateColorAsState: cambio de color con tween y spring") { Ejercicio2() },
     Pantalla("Ejercicio 3", "animateDpAsState y offset: mover y cambiar de tamaño") { Ejercicio3() },
+    Pantalla("Ejercicio 4", "AnimatedContent: Cargando, Contenido y Error") { Ejercicio4() },
 )
 
 @Composable
