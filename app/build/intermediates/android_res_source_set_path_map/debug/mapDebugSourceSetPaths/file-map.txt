@@ -1,0 +1,8 @@
+com.tecsup.lab13.app-pngs-0 /home/agentes/workspace/lab13-animaciones/app/build/generated/res/pngs/debug
+com.tecsup.lab13.app-updated_navigation_xml-1 /home/agentes/workspace/lab13-animaciones/app/build/generated/updated_navigation_xml/debug
+com.tecsup.lab13.app-packageDebugResources-2 /home/agentes/workspace/lab13-animaciones/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.tecsup.lab13.app-packageDebugResources-3 /home/agentes/workspace/lab13-animaciones/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.tecsup.lab13.app-debug-4 /home/agentes/workspace/lab13-animaciones/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.tecsup.lab13.app-debug-5 /home/agentes/workspace/lab13-animaciones/app/src/debug/res
+com.tecsup.lab13.app-main-6 /home/agentes/workspace/lab13-animaciones/app/src/main/res
+gradleHome-0 /home/agentes/.gradle

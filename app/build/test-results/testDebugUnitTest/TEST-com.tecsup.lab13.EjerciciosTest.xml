@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tecsup.lab13.EjerciciosTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-13T20:30:49.490Z" hostname="vmi3134215" time="63.527">
+  <properties/>
+  <testcase name="ejercicio3" classname="com.tecsup.lab13.EjerciciosTest" time="61.47"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
